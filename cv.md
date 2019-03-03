@@ -13,10 +13,73 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Мой самый прекрасный сайт</title>
+    <style type="text/css">
+       table {
+       border-spacing: 0 10px;
+       font-family: 'Open Sans', sans-serif;
+       font-weight: bold;
+       }
+       
+       th {
+       padding: 10px 20px;
+       background: #56433D;
+       color: #F9C941;
+       border-right: 2px solid; 
+       font-size: 0.9em;
+       }
+       
+       th:first-child {
+       text-align: left;
+       }
+       
+       th:last-child {
+       border-right: none;
+       }
+       
+       td {
+       vertical-align: middle;
+       padding: 10px;
+       font-size: 14px;
+       text-align: center;
+       border-top: 2px solid #56433D;
+       border-bottom: 2px solid #56433D;
+       border-right: 2px solid #56433D;
+       }
+       
+       td:first-child {
+       border-left: 2px solid #56433D;
+       border-right: none;
+       }
+       
+       td:nth-child(2){
+       text-align: left;
+       }
+     </style>
   </head>
   <body>
     <h1>Мой первый сайт</h1>
-    <p>Еще совсем чуть-чуть, и я научусь делать самые лучшие сайты на свете.</p>
+    <table>
+    <tr>
+      <th colspan="2">Модель</th>
+      <th>Цена</th>
+      <th>Количество</th>
+      <th>Итого</th>
+    </tr>
+    <tr>
+      <td><img src="https://html5book.ru/wp-content/uploads/2015/04/dress-2.png"></td>
+      <td>Платье с цветочным принтом</td>
+      <td>2500</td>
+      <td>1</td>
+      <td>2500</td>
+    </tr>
+    <tr>
+      <td><img src="https://html5book.ru/wp-content/uploads/2015/04/dress-3.png"></td>
+      <td>Платье с боковыми вставками</td>
+      <td>3000</td>
+      <td>1</td>
+      <td>3000</td>
+    </tr>
+    </table>
   </body>
 </html>
 ````
