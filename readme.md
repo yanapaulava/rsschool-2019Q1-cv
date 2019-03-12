@@ -1,1 +1,1 @@
-https://github.com/yanapaulava/rsschool-2019Q1-cv/cv
+https://github.com/yanapaulava/rsschool-2019Q1-cv/index.html
