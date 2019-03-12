@@ -1,0 +1,18 @@
+body {
+    font-size: large;
+}
+
+h1 {
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+img {
+    margin-right: 50px;
+    width: 250px;
+    height: 350px;
+    float: left;
+}
+
+ol {
+    text-overflow: clip;
+}
